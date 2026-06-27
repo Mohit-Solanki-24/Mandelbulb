@@ -1,0 +1,546 @@
+{
+  "products": [
+    {
+      "product_id": "PROD-001",
+      "name": "Sony WH-1000XM5 Wireless Headphones",
+      "category": "Electronics",
+      "subcategory": "Audio",
+      "price": 349.99,
+      "currency": "USD",
+      "stock": 42,
+      "rating": 4.8,
+      "tags": ["noise-cancelling", "wireless", "bluetooth", "premium-audio", "headphones"],
+      "description": "Industry-leading noise cancelling with two processors and eight microphones. Up to 30-hour battery life. Crystal clear hands-free calling.",
+      "brand": "Sony",
+      "sku": "WH1000XM5-BLK",
+      "image_url": "https://store.example.com/images/sony-wh1000xm5.jpg"
+    },
+    {
+      "product_id": "PROD-002",
+      "name": "Bose QuietComfort 45 Headphones",
+      "category": "Electronics",
+      "subcategory": "Audio",
+      "price": 279.99,
+      "currency": "USD",
+      "stock": 28,
+      "rating": 4.6,
+      "tags": ["noise-cancelling", "wireless", "bluetooth", "comfortable", "headphones"],
+      "description": "Acclaimed noise cancellation technology. TriPort acoustic architecture for balanced audio. 24-hour battery life with 15-minute quick charge.",
+      "brand": "Bose",
+      "sku": "QC45-WHT",
+      "image_url": "https://store.example.com/images/bose-qc45.jpg"
+    },
+    {
+      "product_id": "PROD-003",
+      "name": "Apple AirPods Pro (2nd Generation)",
+      "category": "Electronics",
+      "subcategory": "Audio",
+      "price": 249.00,
+      "currency": "USD",
+      "stock": 75,
+      "rating": 4.7,
+      "tags": ["earbuds", "wireless", "noise-cancelling", "apple", "in-ear"],
+      "description": "Active Noise Cancellation, Adaptive Transparency, Personalized Spatial Audio. Up to 6 hours of listening time with ANC enabled.",
+      "brand": "Apple",
+      "sku": "AIRPODSPRO2-WHT",
+      "image_url": "https://store.example.com/images/airpods-pro2.jpg"
+    },
+    {
+      "product_id": "PROD-004",
+      "name": "Samsung 65\" QLED 4K Smart TV",
+      "category": "Electronics",
+      "subcategory": "Televisions",
+      "price": 1199.99,
+      "currency": "USD",
+      "stock": 12,
+      "rating": 4.5,
+      "tags": ["4K", "QLED", "smart-tv", "large-screen", "HDR"],
+      "description": "Quantum Dot technology delivers 100% Color Volume. Real 4K Quantum Processor. Ambient Mode+ blends into your home decor.",
+      "brand": "Samsung",
+      "sku": "QN65Q80C",
+      "image_url": "https://store.example.com/images/samsung-65qled.jpg"
+    },
+    {
+      "product_id": "PROD-005",
+      "name": "Logitech MX Master 3S Wireless Mouse",
+      "category": "Electronics",
+      "subcategory": "Peripherals",
+      "price": 99.99,
+      "currency": "USD",
+      "stock": 90,
+      "rating": 4.8,
+      "tags": ["mouse", "wireless", "ergonomic", "productivity", "USB-C"],
+      "description": "8K DPI sensor works on any surface, including glass. MagSpeed electromagnetic scroll wheel. Silent clicks with no compromise on feel.",
+      "brand": "Logitech",
+      "sku": "MX-MASTER-3S-GRY",
+      "image_url": "https://store.example.com/images/mx-master-3s.jpg"
+    },
+    {
+      "product_id": "PROD-006",
+      "name": "Nike Air Zoom Pegasus 40 Running Shoes",
+      "category": "Footwear",
+      "subcategory": "Athletic",
+      "price": 134.99,
+      "currency": "USD",
+      "stock": 60,
+      "rating": 4.5,
+      "tags": ["running", "shoes", "athletic", "foam-cushioning", "breathable"],
+      "description": "Responsive foam cushioning for a smooth, fast ride. Wider toe box for a more natural fit. Engineered mesh upper for breathability.",
+      "brand": "Nike",
+      "sku": "AIRPEG40-BLU-10",
+      "image_url": "https://store.example.com/images/nike-pegasus40.jpg"
+    },
+    {
+      "product_id": "PROD-007",
+      "name": "Adidas Ultraboost 23 Running Shoes",
+      "category": "Footwear",
+      "subcategory": "Athletic",
+      "price": 189.99,
+      "currency": "USD",
+      "stock": 35,
+      "rating": 4.6,
+      "tags": ["running", "shoes", "athletic", "boost-cushioning", "primeknit"],
+      "description": "BOOST midsole technology returns energy with every step. Primeknit+ upper adapts to your foot shape. Continental rubber outsole for durable grip.",
+      "brand": "Adidas",
+      "sku": "ULTRABOOST23-WHT",
+      "image_url": "https://store.example.com/images/adidas-ultraboost23.jpg"
+    },
+    {
+      "product_id": "PROD-008",
+      "name": "Instant Pot Duo 7-in-1 Electric Pressure Cooker",
+      "category": "Kitchen & Dining",
+      "subcategory": "Appliances",
+      "price": 89.95,
+      "currency": "USD",
+      "stock": 115,
+      "rating": 4.7,
+      "tags": ["pressure-cooker", "slow-cooker", "multi-cooker", "kitchen", "6-quart"],
+      "description": "7-in-1 multi-use: Pressure Cooker, Slow Cooker, Rice Cooker, Steamer, Sauté Pan, Yogurt Maker, and Food Warmer. 6 quart capacity.",
+      "brand": "Instant Pot",
+      "sku": "IP-DUO60-7-IN-1",
+      "image_url": "https://store.example.com/images/instant-pot-duo.jpg"
+    },
+    {
+      "product_id": "PROD-009",
+      "name": "Ninja Air Fryer Pro 4-in-1",
+      "category": "Kitchen & Dining",
+      "subcategory": "Appliances",
+      "price": 119.99,
+      "currency": "USD",
+      "stock": 48,
+      "rating": 4.6,
+      "tags": ["air-fryer", "roast", "reheat", "dehydrate", "kitchen"],
+      "description": "Up to 75% less fat than traditional frying. 4-in-1 versatility: Air Fry, Roast, Reheat, Dehydrate. 5-quart capacity fits 2 lbs of fries.",
+      "brand": "Ninja",
+      "sku": "AF141-NINJA",
+      "image_url": "https://store.example.com/images/ninja-airfryer.jpg"
+    },
+    {
+      "product_id": "PROD-010",
+      "name": "Kindle Paperwhite (11th Generation)",
+      "category": "Books & Media",
+      "subcategory": "E-Readers",
+      "price": 139.99,
+      "currency": "USD",
+      "stock": 200,
+      "rating": 4.8,
+      "tags": ["e-reader", "kindle", "waterproof", "6.8-inch", "adjustable-warm-light"],
+      "description": "6.8\" display with thinner borders. Adjustable warm light. 10 weeks of battery life. Waterproof (IPX8). 8 GB storage.",
+      "brand": "Amazon",
+      "sku": "KINDLE-PW-11G-8GB",
+      "image_url": "https://store.example.com/images/kindle-paperwhite.jpg"
+    },
+    {
+      "product_id": "PROD-011",
+      "name": "LEGO Technic Ferrari Daytona SP3 (3778 Pieces)",
+      "category": "Toys & Games",
+      "subcategory": "Building Sets",
+      "price": 399.99,
+      "currency": "USD",
+      "stock": 18,
+      "rating": 4.9,
+      "tags": ["lego", "technic", "ferrari", "adults", "collector"],
+      "description": "Incredible 1:8 scale replica of the Ferrari Daytona SP3. Features working steering, an opening hood, doors and roof hatch. 3,778 pieces.",
+      "brand": "LEGO",
+      "sku": "LEGO-42143",
+      "image_url": "https://store.example.com/images/lego-ferrari.jpg"
+    },
+    {
+      "product_id": "PROD-012",
+      "name": "Hydro Flask 32 oz Wide Mouth Water Bottle",
+      "category": "Sports & Outdoors",
+      "subcategory": "Hydration",
+      "price": 49.95,
+      "currency": "USD",
+      "stock": 150,
+      "rating": 4.8,
+      "tags": ["water-bottle", "insulated", "stainless-steel", "BPA-free", "outdoor"],
+      "description": "TempShield insulation keeps liquids cold up to 24 hours, hot up to 12 hours. Durable 18/8 pro-grade stainless steel. Dishwasher safe lid.",
+      "brand": "Hydro Flask",
+      "sku": "HF32WM-PACIFIC",
+      "image_url": "https://store.example.com/images/hydroflask-32.jpg"
+    },
+    {
+      "product_id": "PROD-013",
+      "name": "The North Face Thermoball Eco Jacket",
+      "category": "Clothing",
+      "subcategory": "Outerwear",
+      "price": 229.00,
+      "currency": "USD",
+      "stock": 40,
+      "rating": 4.5,
+      "tags": ["jacket", "insulated", "packable", "outdoor", "eco-friendly"],
+      "description": "Packable jacket filled with recycled PrimaLoft ThermoBall Eco insulation. Performs when wet. Stows in its own pocket. DWR finish.",
+      "brand": "The North Face",
+      "sku": "TNF-TB-ECO-NVY-M",
+      "image_url": "https://store.example.com/images/tnf-thermoball.jpg"
+    },
+    {
+      "product_id": "PROD-014",
+      "name": "Vitamix 5200 Blender Professional Grade",
+      "category": "Kitchen & Dining",
+      "subcategory": "Appliances",
+      "price": 449.95,
+      "currency": "USD",
+      "stock": 22,
+      "rating": 4.9,
+      "tags": ["blender", "professional", "smoothie", "kitchen", "high-power"],
+      "description": "Variable speed control allows you to fine-tune texture. Self-cleaning in 30-60 seconds. 64-oz low-profile container. 10-year full warranty.",
+      "brand": "Vitamix",
+      "sku": "VM-5200-BLK",
+      "image_url": "https://store.example.com/images/vitamix-5200.jpg"
+    },
+    {
+      "product_id": "PROD-015",
+      "name": "Anker 737 Power Bank (PowerCore 24K)",
+      "category": "Electronics",
+      "subcategory": "Power & Charging",
+      "price": 149.99,
+      "currency": "USD",
+      "stock": 65,
+      "rating": 4.7,
+      "tags": ["power-bank", "portable-charger", "USB-C", "fast-charge", "travel"],
+      "description": "140W maximum output to charge a MacBook. 24,000 mAh capacity for 1.4 iPhone 14 Pro Max charges. Smart digital display. Bi-directional USB-C.",
+      "brand": "Anker",
+      "sku": "ANKER-737-24K",
+      "image_url": "https://store.example.com/images/anker-737.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "ORD-10021",
+      "customer": {
+        "customer_id": "CUST-881",
+        "name": "Emily Carter",
+        "email": "emily.carter@email.com"
+      },
+      "status": "delivered",
+      "placed_at": "2026-06-10T09:14:00Z",
+      "estimated_delivery": "2026-06-14T18:00:00Z",
+      "delivered_at": "2026-06-13T14:32:00Z",
+      "shipping_address": "42 Maple Avenue, Austin, TX 78701",
+      "items": [
+        {
+          "product_id": "PROD-001",
+          "name": "Sony WH-1000XM5 Wireless Headphones",
+          "quantity": 1,
+          "unit_price": 349.99
+        }
+      ],
+      "subtotal": 349.99,
+      "shipping_cost": 0.00,
+      "tax": 28.87,
+      "total": 378.86,
+      "payment_method": "Visa ending in 4821",
+      "tracking_number": "1Z999AA10123456784"
+    },
+    {
+      "order_id": "ORD-10022",
+      "customer": {
+        "customer_id": "CUST-334",
+        "name": "Marcus Webb",
+        "email": "m.webb@email.com"
+      },
+      "status": "shipped",
+      "placed_at": "2026-06-20T14:05:00Z",
+      "estimated_delivery": "2026-06-25T18:00:00Z",
+      "delivered_at": null,
+      "shipping_address": "17 Oak Street, Denver, CO 80202",
+      "items": [
+        {
+          "product_id": "PROD-004",
+          "name": "Samsung 65\" QLED 4K Smart TV",
+          "quantity": 1,
+          "unit_price": 1199.99
+        },
+        {
+          "product_id": "PROD-005",
+          "name": "Logitech MX Master 3S Wireless Mouse",
+          "quantity": 1,
+          "unit_price": 99.99
+        }
+      ],
+      "subtotal": 1299.98,
+      "shipping_cost": 0.00,
+      "tax": 107.25,
+      "total": 1407.23,
+      "payment_method": "Mastercard ending in 3362",
+      "tracking_number": "1Z999AA10123456785"
+    },
+    {
+      "order_id": "ORD-10023",
+      "customer": {
+        "customer_id": "CUST-119",
+        "name": "Priya Sharma",
+        "email": "priya.s@email.com"
+      },
+      "status": "processing",
+      "placed_at": "2026-06-23T10:22:00Z",
+      "estimated_delivery": "2026-06-28T18:00:00Z",
+      "delivered_at": null,
+      "shipping_address": "9 Birch Lane, Seattle, WA 98101",
+      "items": [
+        {
+          "product_id": "PROD-008",
+          "name": "Instant Pot Duo 7-in-1 Electric Pressure Cooker",
+          "quantity": 1,
+          "unit_price": 89.95
+        },
+        {
+          "product_id": "PROD-012",
+          "name": "Hydro Flask 32 oz Wide Mouth Water Bottle",
+          "quantity": 2,
+          "unit_price": 49.95
+        }
+      ],
+      "subtotal": 189.85,
+      "shipping_cost": 5.99,
+      "tax": 16.13,
+      "total": 211.97,
+      "payment_method": "PayPal",
+      "tracking_number": null
+    },
+    {
+      "order_id": "ORD-10024",
+      "customer": {
+        "customer_id": "CUST-556",
+        "name": "Jake Morrison",
+        "email": "jmorrison@email.com"
+      },
+      "status": "cancelled",
+      "placed_at": "2026-06-15T08:45:00Z",
+      "estimated_delivery": "2026-06-20T18:00:00Z",
+      "delivered_at": null,
+      "shipping_address": "88 Pine Road, Chicago, IL 60601",
+      "items": [
+        {
+          "product_id": "PROD-011",
+          "name": "LEGO Technic Ferrari Daytona SP3 (3778 Pieces)",
+          "quantity": 1,
+          "unit_price": 399.99
+        }
+      ],
+      "subtotal": 399.99,
+      "shipping_cost": 0.00,
+      "tax": 33.00,
+      "total": 432.99,
+      "payment_method": "Visa ending in 7723",
+      "tracking_number": null,
+      "cancellation_reason": "Customer requested cancellation before shipment"
+    },
+    {
+      "order_id": "ORD-10025",
+      "customer": {
+        "customer_id": "CUST-772",
+        "name": "Aisha Okonkwo",
+        "email": "aisha.ok@email.com"
+      },
+      "status": "delivered",
+      "placed_at": "2026-06-05T16:30:00Z",
+      "estimated_delivery": "2026-06-10T18:00:00Z",
+      "delivered_at": "2026-06-09T11:20:00Z",
+      "shipping_address": "300 Elm Drive, Miami, FL 33101",
+      "items": [
+        {
+          "product_id": "PROD-006",
+          "name": "Nike Air Zoom Pegasus 40 Running Shoes",
+          "quantity": 1,
+          "unit_price": 134.99
+        },
+        {
+          "product_id": "PROD-013",
+          "name": "The North Face Thermoball Eco Jacket",
+          "quantity": 1,
+          "unit_price": 229.00
+        }
+      ],
+      "subtotal": 363.99,
+      "shipping_cost": 0.00,
+      "tax": 30.03,
+      "total": 394.02,
+      "payment_method": "American Express ending in 1001",
+      "tracking_number": "1Z999AA10123456786"
+    },
+    {
+      "order_id": "ORD-10026",
+      "customer": {
+        "customer_id": "CUST-443",
+        "name": "Tom Nguyen",
+        "email": "tom.nguyen@email.com"
+      },
+      "status": "out_for_delivery",
+      "placed_at": "2026-06-21T11:00:00Z",
+      "estimated_delivery": "2026-06-24T20:00:00Z",
+      "delivered_at": null,
+      "shipping_address": "55 Willow Blvd, San Francisco, CA 94105",
+      "items": [
+        {
+          "product_id": "PROD-003",
+          "name": "Apple AirPods Pro (2nd Generation)",
+          "quantity": 1,
+          "unit_price": 249.00
+        },
+        {
+          "product_id": "PROD-015",
+          "name": "Anker 737 Power Bank (PowerCore 24K)",
+          "quantity": 1,
+          "unit_price": 149.99
+        }
+      ],
+      "subtotal": 398.99,
+      "shipping_cost": 0.00,
+      "tax": 32.91,
+      "total": 431.90,
+      "payment_method": "Visa ending in 5599",
+      "tracking_number": "1Z999AA10123456787"
+    },
+    {
+      "order_id": "ORD-10027",
+      "customer": {
+        "customer_id": "CUST-228",
+        "name": "Sandra Kowalski",
+        "email": "s.kowalski@email.com"
+      },
+      "status": "returned",
+      "placed_at": "2026-05-28T13:45:00Z",
+      "estimated_delivery": "2026-06-02T18:00:00Z",
+      "delivered_at": "2026-06-01T10:15:00Z",
+      "shipping_address": "14 Cedar Court, Boston, MA 02101",
+      "items": [
+        {
+          "product_id": "PROD-009",
+          "name": "Ninja Air Fryer Pro 4-in-1",
+          "quantity": 1,
+          "unit_price": 119.99
+        }
+      ],
+      "subtotal": 119.99,
+      "shipping_cost": 0.00,
+      "tax": 9.90,
+      "total": 129.89,
+      "payment_method": "Mastercard ending in 8847",
+      "tracking_number": "1Z999AA10123456788",
+      "return_reason": "Product did not meet expectations — returned within 30-day window",
+      "refund_status": "refund_processed"
+    },
+    {
+      "order_id": "ORD-10028",
+      "customer": {
+        "customer_id": "CUST-667",
+        "name": "David Osei",
+        "email": "d.osei@email.com"
+      },
+      "status": "shipped",
+      "placed_at": "2026-06-22T08:10:00Z",
+      "estimated_delivery": "2026-06-27T18:00:00Z",
+      "delivered_at": null,
+      "shipping_address": "77 Redwood Lane, Portland, OR 97201",
+      "items": [
+        {
+          "product_id": "PROD-010",
+          "name": "Kindle Paperwhite (11th Generation)",
+          "quantity": 1,
+          "unit_price": 139.99
+        },
+        {
+          "product_id": "PROD-002",
+          "name": "Bose QuietComfort 45 Headphones",
+          "quantity": 1,
+          "unit_price": 279.99
+        }
+      ],
+      "subtotal": 419.98,
+      "shipping_cost": 0.00,
+      "tax": 34.65,
+      "total": 454.63,
+      "payment_method": "PayPal",
+      "tracking_number": "1Z999AA10123456789"
+    },
+    {
+      "order_id": "ORD-10029",
+      "customer": {
+        "customer_id": "CUST-912",
+        "name": "Rachel Flores",
+        "email": "rachel.f@email.com"
+      },
+      "status": "processing",
+      "placed_at": "2026-06-24T06:55:00Z",
+      "estimated_delivery": "2026-06-30T18:00:00Z",
+      "delivered_at": null,
+      "shipping_address": "203 Aspen Way, Phoenix, AZ 85001",
+      "items": [
+        {
+          "product_id": "PROD-014",
+          "name": "Vitamix 5200 Blender Professional Grade",
+          "quantity": 1,
+          "unit_price": 449.95
+        }
+      ],
+      "subtotal": 449.95,
+      "shipping_cost": 0.00,
+      "tax": 37.12,
+      "total": 487.07,
+      "payment_method": "Visa ending in 2244",
+      "tracking_number": null
+    },
+    {
+      "order_id": "ORD-10030",
+      "customer": {
+        "customer_id": "CUST-101",
+        "name": "Liam Patel",
+        "email": "liam.patel@email.com"
+      },
+      "status": "delivered",
+      "placed_at": "2026-06-01T15:20:00Z",
+      "estimated_delivery": "2026-06-06T18:00:00Z",
+      "delivered_at": "2026-06-05T09:45:00Z",
+      "shipping_address": "501 Spruce Street, Nashville, TN 37201",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "name": "Adidas Ultraboost 23 Running Shoes",
+          "quantity": 1,
+          "unit_price": 189.99
+        },
+        {
+          "product_id": "PROD-012",
+          "name": "Hydro Flask 32 oz Wide Mouth Water Bottle",
+          "quantity": 1,
+          "unit_price": 49.95
+        },
+        {
+          "product_id": "PROD-015",
+          "name": "Anker 737 Power Bank (PowerCore 24K)",
+          "quantity": 1,
+          "unit_price": 149.99
+        }
+      ],
+      "subtotal": 389.93,
+      "shipping_cost": 0.00,
+      "tax": 32.17,
+      "total": 422.10,
+      "payment_method": "Mastercard ending in 6610",
+      "tracking_number": "1Z999AA10123456790"
+    }
+  ]
+}
