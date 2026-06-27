@@ -31,7 +31,7 @@ The system is built as a strict 4-layer pipeline. Each layer has exactly one job
 
 The diagram below shows the exact flow of a user request through the system. The only file modified for LLM integration is `planner.py`. All other files remain unchanged.
 
-![ShopSmart AI System Workflow](image1.png)
+![ShopSmart AI System Workflow](Image1.png)
 
 **Flow Overview:**
 1. User types a question → `streamlit_app.py` (no change needed)
